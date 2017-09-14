@@ -1,0 +1,9 @@
+Options +FollowSymLinks
+Options -Indexes
+DirectoryIndex cadastrar_corrida.php
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+RewriteRule ^editar_motorista-([0-9]+) editar_motorista.php?id=$1
+RewriteRule ^editar_passageiro-([0-9]+) editar_passageiro.php?id=$1
+RewriteRule ^editar_corrida-([0-9]+) editar_corrida.php?id=$1

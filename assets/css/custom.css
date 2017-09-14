@@ -1,0 +1,33 @@
+.footer {
+    background-color: #232f3e;
+    color: #ffffff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    padding: 5px;
+}
+
+.resize-vertica {
+    resize: vertical;
+}
+
+body {
+    padding-bottom: 100px;
+}
+
+.delete {
+    margin-top: 8px;
+}
+
+.block {
+    width: 100%;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.passengers {
+    margin: 0;
+    padding-left: 16px;
+}
