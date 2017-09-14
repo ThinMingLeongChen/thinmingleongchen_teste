@@ -31,7 +31,7 @@ CREATE TABLE ride (
     id_driver INT NOT NULL,
     value_ride DECIMAL(8,2) NOT NULL,
     date_ride DATETIME NOT NULL DEFAULT NOW(),
-    date_changes DATETIME NULL
+    date_changes DATETIME NULL,
     FOREIGN KEY (id_driver) REFERENCES driver (id_driver)
 )
 ENGINE = MyISAM
